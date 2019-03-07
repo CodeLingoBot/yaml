@@ -748,7 +748,7 @@ func (s *S) TestUnmarshal(c *C) {
 	}
 }
 
-// TODO(v3): This test should also work when unmarshaling onto an interface{}.
+// TestUnmarshalFullTimestamp: TODO(v3): This test should also work when unmarshaling onto an interface{}.
 func (s *S) TestUnmarshalFullTimestamp(c *C) {
 	// Full timestamp in same format as encoded. This is confirmed to be
 	// properly decoded by Python as a timestamp as well.
